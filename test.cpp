@@ -1,12 +1,3 @@
-# 罗剑锋C++实战笔记
-提高c++技能
-
-安装g++编译器
-```
-sudo apt-get install g++
-```
-
-```c++
 //Copyright 2022  yanqing
 #include <string>
 using namespace std;
@@ -29,11 +20,3 @@ int main() {
   printf("hellworld\n");
   return 0;
 }
-
-
-```
-
-编译
-```
-g++ -std=c++11 test.cpp -o a.out; ./a.out
-```
